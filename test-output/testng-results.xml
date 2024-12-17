@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-17T20:18:17 IST" name="Suite" finished-at="2024-12-17T20:20:16 IST" duration-ms="119341">
+    <groups>
+    </groups>
+    <test started-at="2024-12-17T20:18:17 IST" name="Test" finished-at="2024-12-17T20:20:16 IST" duration-ms="119341">
+      <class name="testPackage.WishListTest">
+        <test-method signature="test6()[pri:0, instance:testPackage.WishListTest@57a78e3]" started-at="2024-12-17T20:19:01 IST" name="test6" finished-at="2024-12-17T20:19:06 IST" duration-ms="4874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- testPackage.WishListTest -->
+      <class name="testPackage.BrokenLinkCountTest">
+        <test-method signature="test2()[pri:0, instance:testPackage.BrokenLinkCountTest@1750fbeb]" started-at="2024-12-17T20:19:51 IST" name="test2" finished-at="2024-12-17T20:20:16 IST" duration-ms="24823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- testPackage.BrokenLinkCountTest -->
+      <class name="testPackage2.ReturnTest">
+        <test-method signature="test12()[pri:0, instance:testPackage2.ReturnTest@1caa0244]" started-at="2024-12-17T20:19:25 IST" name="test12" finished-at="2024-12-17T20:19:35 IST" duration-ms="10148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+      </class> <!-- testPackage2.ReturnTest -->
+      <class name="testPackage2.RegisatrationDoubleTest">
+        <test-method signature="test17()[pri:0, instance:testPackage2.RegisatrationDoubleTest@7ce69770]" started-at="2024-12-17T20:19:44 IST" name="test17" finished-at="2024-12-17T20:19:51 IST" duration-ms="7664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test17 -->
+      </class> <!-- testPackage2.RegisatrationDoubleTest -->
+      <class name="testPackage.RegistrationTest">
+        <test-method signature="test3()[pri:0, instance:testPackage.RegistrationTest@5032714f]" started-at="2024-12-17T20:18:38 IST" name="test3" finished-at="2024-12-17T20:18:44 IST" duration-ms="5986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- testPackage.RegistrationTest -->
+      <class name="testPackage.SearchFunTest">
+        <test-method signature="test8()[pri:0, instance:testPackage.SearchFunTest@6fa51cd4]" started-at="2024-12-17T20:19:09 IST" name="test8" finished-at="2024-12-17T20:19:11 IST" duration-ms="2695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+      </class> <!-- testPackage.SearchFunTest -->
+      <class name="testPackage2.LogoTest">
+        <test-method signature="test18()[pri:0, instance:testPackage2.LogoTest@cecf639]" started-at="2024-12-17T20:19:25 IST" name="test18" finished-at="2024-12-17T20:19:25 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test18 -->
+      </class> <!-- testPackage2.LogoTest -->
+      <class name="testPackage.TitleVerificationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.TitleVerificationTest@413d1baf]" started-at="2024-12-17T20:18:17 IST" name="setUp" finished-at="2024-12-17T20:18:38 IST" duration-ms="21276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:testPackage.TitleVerificationTest@413d1baf]" started-at="2024-12-17T20:18:38 IST" name="test1" finished-at="2024-12-17T20:18:38 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testPackage.TitleVerificationTest -->
+      <class name="testPackage.WishCartTest">
+        <test-method signature="test7()[pri:0, instance:testPackage.WishCartTest@402c4085]" started-at="2024-12-17T20:19:06 IST" name="test7" finished-at="2024-12-17T20:19:09 IST" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+      </class> <!-- testPackage.WishCartTest -->
+      <class name="testPackage.AddtoCartTest">
+        <test-method signature="test5()[pri:0, instance:testPackage.AddtoCartTest@4681c175]" started-at="2024-12-17T20:18:55 IST" name="test5" finished-at="2024-12-17T20:19:01 IST" duration-ms="5837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- testPackage.AddtoCartTest -->
+      <class name="testPackage2.FaqTest">
+        <test-method signature="test15()[pri:0, instance:testPackage2.FaqTest@14028087]" started-at="2024-12-17T20:19:25 IST" name="test15" finished-at="2024-12-17T20:19:25 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+      </class> <!-- testPackage2.FaqTest -->
+      <class name="testPackage.PagingTest">
+        <test-method signature="test11()[pri:0, instance:testPackage.PagingTest@710c2b53]" started-at="2024-12-17T20:19:15 IST" name="test11" finished-at="2024-12-17T20:19:22 IST" duration-ms="6761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+      </class> <!-- testPackage.PagingTest -->
+      <class name="testPackage.LoginTest">
+        <test-method signature="test4()[pri:0, instance:testPackage.LoginTest@48bb62]" started-at="2024-12-17T20:18:44 IST" name="test4" finished-at="2024-12-17T20:18:51 IST" duration-ms="6515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- testPackage.LoginTest -->
+      <class name="testPackage2.TrackTest">
+        <test-method signature="test13()[pri:0, instance:testPackage2.TrackTest@7ce026d3]" started-at="2024-12-17T20:19:35 IST" name="test13" finished-at="2024-12-17T20:19:44 IST" duration-ms="8572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+      </class> <!-- testPackage2.TrackTest -->
+      <class name="testPackage.HomePageTest">
+        <test-method signature="test10()[pri:0, instance:testPackage.HomePageTest@2767e23c]" started-at="2024-12-17T20:19:11 IST" name="test10" finished-at="2024-12-17T20:19:15 IST" duration-ms="4080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+      </class> <!-- testPackage.HomePageTest -->
+      <class name="testPackage.ColorFilterTest">
+        <test-method signature="test9()[pri:0, instance:testPackage.ColorFilterTest@353352b6]" started-at="2024-12-17T20:18:51 IST" name="test9" finished-at="2024-12-17T20:18:55 IST" duration-ms="4026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+      </class> <!-- testPackage.ColorFilterTest -->
+      <class name="testPackage2.WhatsappTest">
+        <test-method signature="test14()[pri:0, instance:testPackage2.WhatsappTest@5386659f]" started-at="2024-12-17T20:19:22 IST" name="test14" finished-at="2024-12-17T20:19:25 IST" duration-ms="2604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+      </class> <!-- testPackage2.WhatsappTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

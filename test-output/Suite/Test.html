@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 17 20:18:17 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>119 seconds (119341 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testPackage.SearchFunTest.test8()'><b>test8</b><br>Test class: testPackage.SearchFunTest</td>
+<td></td>
+<td>2</td>
+<td>testPackage.SearchFunTest@6fa51cd4</td></tr>
+<tr>
+<td title='testPackage.BrokenLinkCountTest.test2()'><b>test2</b><br>Test class: testPackage.BrokenLinkCountTest</td>
+<td></td>
+<td>24</td>
+<td>testPackage.BrokenLinkCountTest@1750fbeb</td></tr>
+<tr>
+<td title='testPackage.LoginTest.test4()'><b>test4</b><br>Test class: testPackage.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>testPackage.LoginTest@48bb62</td></tr>
+<tr>
+<td title='testPackage.PagingTest.test11()'><b>test11</b><br>Test class: testPackage.PagingTest</td>
+<td></td>
+<td>6</td>
+<td>testPackage.PagingTest@710c2b53</td></tr>
+<tr>
+<td title='testPackage.AddtoCartTest.test5()'><b>test5</b><br>Test class: testPackage.AddtoCartTest</td>
+<td></td>
+<td>5</td>
+<td>testPackage.AddtoCartTest@4681c175</td></tr>
+<tr>
+<td title='testPackage.ColorFilterTest.test9()'><b>test9</b><br>Test class: testPackage.ColorFilterTest</td>
+<td></td>
+<td>4</td>
+<td>testPackage.ColorFilterTest@353352b6</td></tr>
+<tr>
+<td title='testPackage2.WhatsappTest.test14()'><b>test14</b><br>Test class: testPackage2.WhatsappTest</td>
+<td></td>
+<td>2</td>
+<td>testPackage2.WhatsappTest@5386659f</td></tr>
+<tr>
+<td title='testPackage2.TrackTest.test13()'><b>test13</b><br>Test class: testPackage2.TrackTest</td>
+<td></td>
+<td>8</td>
+<td>testPackage2.TrackTest@7ce026d3</td></tr>
+<tr>
+<td title='testPackage.HomePageTest.test10()'><b>test10</b><br>Test class: testPackage.HomePageTest</td>
+<td></td>
+<td>4</td>
+<td>testPackage.HomePageTest@2767e23c</td></tr>
+<tr>
+<td title='testPackage.TitleVerificationTest.test1()'><b>test1</b><br>Test class: testPackage.TitleVerificationTest</td>
+<td></td>
+<td>0</td>
+<td>testPackage.TitleVerificationTest@413d1baf</td></tr>
+<tr>
+<td title='testPackage.WishCartTest.test7()'><b>test7</b><br>Test class: testPackage.WishCartTest</td>
+<td></td>
+<td>3</td>
+<td>testPackage.WishCartTest@402c4085</td></tr>
+<tr>
+<td title='testPackage2.RegisatrationDoubleTest.test17()'><b>test17</b><br>Test class: testPackage2.RegisatrationDoubleTest</td>
+<td></td>
+<td>7</td>
+<td>testPackage2.RegisatrationDoubleTest@7ce69770</td></tr>
+<tr>
+<td title='testPackage2.ReturnTest.test12()'><b>test12</b><br>Test class: testPackage2.ReturnTest</td>
+<td></td>
+<td>10</td>
+<td>testPackage2.ReturnTest@1caa0244</td></tr>
+<tr>
+<td title='testPackage.RegistrationTest.test3()'><b>test3</b><br>Test class: testPackage.RegistrationTest</td>
+<td></td>
+<td>5</td>
+<td>testPackage.RegistrationTest@5032714f</td></tr>
+<tr>
+<td title='testPackage.WishListTest.test6()'><b>test6</b><br>Test class: testPackage.WishListTest</td>
+<td></td>
+<td>4</td>
+<td>testPackage.WishListTest@57a78e3</td></tr>
+<tr>
+<td title='testPackage2.FaqTest.test15()'><b>test15</b><br>Test class: testPackage2.FaqTest</td>
+<td></td>
+<td>0</td>
+<td>testPackage2.FaqTest@14028087</td></tr>
+<tr>
+<td title='testPackage2.LogoTest.test18()'><b>test18</b><br>Test class: testPackage2.LogoTest</td>
+<td></td>
+<td>0</td>
+<td>testPackage2.LogoTest@cecf639</td></tr>
+</table><p>
+</body>
+</html>
